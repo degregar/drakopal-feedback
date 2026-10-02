@@ -1,0 +1,33 @@
+name: I like it / I don't like it
+description: Tell us how Drakopal feels to play.
+title: "Feedback: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you! Please write no personal data (no names, ages, school, address). / Dziękujemy! Bez danych osobowych."
+  - type: dropdown
+    id: overall
+    attributes:
+      label: Overall
+      options: ["Love it", "Like it", "It's OK", "Not for me"]
+    validations:
+      required: true
+  - type: textarea
+    id: fun
+    attributes:
+      label: What was fun?
+  - type: textarea
+    id: not-fun
+    attributes:
+      label: What was boring, hard or confusing?
+  - type: dropdown
+    id: how-far
+    attributes:
+      label: How far did you get?
+      options: ["Still waiting for the egg", "My dragon hatched", "It grew up", "I flew on it", "Several dragons"]
+  - type: input
+    id: version
+    attributes:
+      label: Minecraft version (optional)
+      placeholder: "26.3, 26.2, 26.1.2 or 1.21.1"

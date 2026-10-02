@@ -1,0 +1,35 @@
+name: Bug
+description: Something broke or looks wrong.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please write no personal data. A screenshot of the game helps a lot. / Bez danych osobowych; zrzut ekranu z gry bardzo pomaga."
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see it too? (steps)
+  - type: input
+    id: version
+    attributes:
+      label: Minecraft and Drakopal version
+      placeholder: "e.g. Minecraft 26.3, Drakopal 0.3.1"
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods (optional)
+  - type: textarea
+    id: log
+    attributes:
+      label: Crash report or log (optional)
+      description: "From .minecraft/crash-reports or logs/latest.log. Remove your username if you like."
+      render: text

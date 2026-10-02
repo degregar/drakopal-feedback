@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: E-mail (for parents, or players under 13)
+    url: mailto:michal@kukla.tech
+    about: Write to the author directly.
+  - name: Drakopal on CurseForge
+    url: https://www.curseforge.com/minecraft/mc-mods/drakopal
+    about: Download the mod, read the description.
