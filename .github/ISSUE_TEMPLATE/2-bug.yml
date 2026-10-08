@@ -27,9 +27,6 @@ body:
     id: mods
     attributes:
       label: Other mods (optional)
-  - type: textarea
-    id: log
+  - type: markdown
     attributes:
-      label: Crash report or log (optional)
-      description: "From .minecraft/crash-reports or logs/latest.log. Remove your username if you like."
-      render: text
+      value: "Please don't paste logs here: they contain player names. If we need them, we'll ask you to send them by e-mail. / Prosimy, nie wklejaj tu logów: są w nich nazwy graczy. Jeśli będą potrzebne, poprosimy o nie mailem."
